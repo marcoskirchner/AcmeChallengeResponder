@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Authentication;
 
-namespace AcmeChallengeRestResponder.Security.SimpleBearer
+namespace AcmeChallengeResponder.Security.SimpleBearer
 {
     public class SimpleBearerOptions : AuthenticationSchemeOptions
     {

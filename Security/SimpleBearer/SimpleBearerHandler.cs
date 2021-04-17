@@ -7,7 +7,7 @@ using System.Security.Claims;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 
-namespace AcmeChallengeRestResponder.Security.SimpleBearer
+namespace AcmeChallengeResponder.Security.SimpleBearer
 {
     public class SimpleBearerHandler : AuthenticationHandler<SimpleBearerOptions>
     {

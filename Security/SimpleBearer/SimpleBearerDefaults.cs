@@ -1,4 +1,4 @@
-﻿namespace AcmeChallengeRestResponder.Security.SimpleBearer
+﻿namespace AcmeChallengeResponder.Security.SimpleBearer
 {
     public static class SimpleBearerDefaults
     {

@@ -1,4 +1,4 @@
-using AcmeChallengeRestResponder.Security.SimpleBearer;
+using AcmeChallengeResponder.Security.SimpleBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -6,7 +6,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-namespace AcmeChallengeRestResponder
+namespace AcmeChallengeResponder
 {
     public class Startup
     {

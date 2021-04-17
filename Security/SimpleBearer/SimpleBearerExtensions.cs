@@ -1,4 +1,4 @@
-﻿using AcmeChallengeRestResponder.Security.SimpleBearer;
+﻿using AcmeChallengeResponder.Security.SimpleBearer;
 using Microsoft.AspNetCore.Authentication;
 using System;
 

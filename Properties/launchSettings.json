@@ -14,7 +14,7 @@
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
     },
-    "AcmeChallengeRestResponder": {
+    "AcmeChallengeResponder": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {
