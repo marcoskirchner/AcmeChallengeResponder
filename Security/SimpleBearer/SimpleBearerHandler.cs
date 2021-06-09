@@ -22,7 +22,7 @@ namespace AcmeChallengeResponder.Security.SimpleBearer
                 return Task.FromResult(AuthenticateResult.NoResult());
             }
 
-            string token = null;
+            string? token = null;
             if (authorization.StartsWith("Bearer ", StringComparison.OrdinalIgnoreCase))
             {
                 token = authorization.Substring("Bearer ".Length).Trim();

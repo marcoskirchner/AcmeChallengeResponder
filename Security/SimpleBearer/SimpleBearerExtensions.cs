@@ -11,7 +11,7 @@ namespace Microsoft.Extensions.DependencyInjection
             return AddSimpleBearer(builder, null);
         }
 
-        public static AuthenticationBuilder AddSimpleBearer(this AuthenticationBuilder builder, Action<SimpleBearerOptions> configureOptions)
+        public static AuthenticationBuilder AddSimpleBearer(this AuthenticationBuilder builder, Action<SimpleBearerOptions>? configureOptions)
         {
             return builder.AddScheme<SimpleBearerOptions, SimpleBearerHandler>(SimpleBearerDefaults.AuthenticationScheme, configureOptions);
         }
